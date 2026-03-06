@@ -20,7 +20,6 @@ Usuario --- CU2
 
 ```
 
-
 # 2. Gestión de Tienda Online
 
 ```mermaid
@@ -36,6 +35,7 @@ CU2([Gestionar Stock])
 CU3([Aplicar Cupón Descuento])
 
 %% Definir relaciones especiales
+
 %% Relación extend (opcional)
 CU3 -.->|&lt;&lt;extend&gt;&gt;| CU1
 end
@@ -45,7 +45,6 @@ Cliente --- CU1
 Administrador --- CU2
 
 ```
-
 
 # 3. Plataforma de Streaming
 
